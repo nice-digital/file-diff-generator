@@ -1,0 +1,10 @@
+<%- include('header'); -%>
+    <div id="fileList">
+        <h1>Files Changed (<%= content.length -1 %>)</h1>
+        <ol>
+            <% content.forEach(function(file){ %>
+                <li><a href="<%= file %>"><%= file %></a></li>
+            <% }); %>
+        </ol>
+    </div>
+<%- include('footer'); -%>

@@ -1,6 +1,6 @@
 {
   "name": "@nice-digital/file-diff-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generates colourised differences between any kinds of files from two different sources and indicates if they were added, deleted or changed.",
   "main": "index.js",
   "scripts": {

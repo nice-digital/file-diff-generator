@@ -27,7 +27,7 @@ The added, deleted or changed files are collated into the output folder with the
 
 ### Options
 ```
-Usage: file-diff-generator= --input= SOURCE --output= DESTINATION [OPTIONS]
+Usage:
 
 file-diff-generator --new= NEW SOURCE --old= OLD SOURCE --output= DESTINATION [OPTIONS]
 

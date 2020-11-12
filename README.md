@@ -31,7 +31,7 @@ Usage:
 
 file-diff-generator --new= NEW SOURCE --old= OLD SOURCE --output= DESTINATION [OPTIONS]
 
---outputFormat Whether to display the differences line-by-line or side-by-side (default: side-by-side)
+--outputFormat Whether to display the differences line-by-line or side-by-side (default: line-by-line)
 
 --regexReplacement An array of regular expressions in JSON to replace text in source files (default: none)
 
@@ -41,7 +41,7 @@ file-diff-generator --new= NEW SOURCE --old= OLD SOURCE --output= DESTINATION [O
 ### Usage Examples
 
 ```bash
-file-diff-generator --new=/root/new --old=/root/old --output=/root/output --outputFormat=line-by-line
+file-diff-generator --new=/root/new --old=/root/old --output=/root/output --outputFormat=side-by-side
 ```
 
 ```bash

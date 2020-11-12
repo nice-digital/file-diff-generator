@@ -27,9 +27,9 @@ The added, deleted or changed files are collated into the output folder with the
 
 ### Options
 ```
-Usage: file-diff-generator --input SOURCE --output DESTINATION [OPTIONS]
+Usage: file-diff-generator= --input= SOURCE --output= DESTINATION [OPTIONS]
 
-file-diff-generator --new NEW SOURCE --old OLD SOURCE --output= DESTINATION [OPTIONS]
+file-diff-generator --new= NEW SOURCE --old= OLD SOURCE --output= DESTINATION [OPTIONS]
 
 --regexReplacement An array of regular expressions in JSON to replace text in source files (default: none)
 
